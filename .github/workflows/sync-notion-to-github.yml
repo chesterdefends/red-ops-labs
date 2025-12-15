@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
       - name: Sync Notion to GitHub
         uses: novuhq/notion-to-github-sync-action@latest
         with:
